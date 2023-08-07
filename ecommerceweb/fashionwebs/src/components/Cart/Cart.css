@@ -1,0 +1,143 @@
+.cart-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cart-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .dress-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 -10px;
+  }
+  
+  .dress-card {
+    width: 300px;
+    height: 400px; /* Set the desired height for the card */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dress-image {
+    width: 200px; /* Set the desired width for the dress image */
+    height: 200px; /* Set the desired height for the dress image */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .dress-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .dress-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .dress-price {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-button {
+    padding: 8px 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+
+  .order-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
+
+  .order-button {
+    --c:  #229091; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  .order-button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  .order-button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+
+  .order-button {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+
+
+  .add-to-cart-button1 {
+    --c:  #00BFFF; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  .add-to-cart-button1:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  .add-to-cart-button1:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+
+  .add-to-cart-button1 {
+    font-family: system-ui, sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+  }

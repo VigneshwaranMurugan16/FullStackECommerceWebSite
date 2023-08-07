@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=League+Spartan:wght@100&family=Montserrat:ital,wght@0,100;1,100&family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Agdasima', sans-serif;
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFD700;
+  padding: 5px;
+  width: 100%;
+  z-index: 999; /* Ensure the navbar appears above other elements */
+}
+
+.navbar .logo-container {
+  margin-right: 10px;
+}
+
+.navbar .logo {
+  width: 80px; /* Adjust the width as desired */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-right: 5px;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px; /* Adjust the font size as desired */
+}
+
+.navbar .nav-links li a:hover {
+  background-color: #61ff05;
+}
+
+.navbar .nav-links li a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #000000f9;
+}
+
+.navbar .nav-links li {
+  margin-right: 10px; /* Add margin-right to create space between elements */
+}
+
+.navbar .nav-links li:last-child {
+  margin-right: 0; /* Remove margin-right from the last element to avoid extra space */
+}

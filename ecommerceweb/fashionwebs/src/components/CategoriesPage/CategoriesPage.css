@@ -1,0 +1,11 @@
+.categories-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .offer-card-wrapper {
+    display: flex;
+  }
+  
+  /* Rest of the CSS styles for OfferCard component */
+  

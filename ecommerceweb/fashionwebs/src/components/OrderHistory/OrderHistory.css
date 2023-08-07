@@ -1,0 +1,68 @@
+.order-history-section {
+    padding: 20px;
+  }
+  
+  .order-history-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-card-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .order-card-timestamp {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .order-card-total-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .order-card-arrival {
+    font-size: 16px;
+    color: #090;
+    margin-bottom: 10px;
+  }
+  
+  .order-card-items {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .order-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .order-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .order-item-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .order-item-price {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
