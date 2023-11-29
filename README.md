@@ -1,11 +1,11 @@
 # FullStackECommerceWebSite
 
-##Introduction
+## Introduction
 
 Welcome to FashionWorld, an innovative e-commerce platform designed to provide a seamless shopping experience for fashion enthusiasts. This project serves as a testament to my expertise in web development, leveraging cutting-edge technologies to create a user-friendly and visually appealing online shopping destination.
 
 
-##Technologies Used
+## Technologies Used
 
 - ReactJS: A JavaScript library for building user interfaces.
 - ExpressJS: A web application framework for Node.js.
@@ -13,7 +13,7 @@ Welcome to FashionWorld, an innovative e-commerce platform designed to provide a
 
 
 
-##Workings
+## Workings
 ```
 cd /path/to/folder/called/backend-Server
 npm start
